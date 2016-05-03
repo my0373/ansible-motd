@@ -1,0 +1,4 @@
+---
+# tasks file for mattmotd
+  - name: setup a MOTD
+    template: src=templates/motdtemplate.j2 dest=/etc/motd owner=root group=wheel mode=0644
